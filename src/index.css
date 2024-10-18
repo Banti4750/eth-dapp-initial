@@ -1,0 +1,40 @@
+/* Added CSS */
+:root {
+  text-align: left;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  /* min-width: 100vw;
+  min-height: 100vh; */
+  text-align: center;
+ background-color: rgba(16, 16, 19, 0.991);
+ color: white;
+}
+
+
+
+button {
+  min-width: 12em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin: 10px;
+
+  align-items: center;
+  border-radius: 0.5em;
+  margin-bottom: 0.5em;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+button > img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+}
+
+button:hover {
+  background-color: #079d37;
+}
+
